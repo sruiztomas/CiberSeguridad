@@ -45,6 +45,7 @@
 - [nmap](https://nmap.org/)
 - [dnsdumpster](https://dnsdumpster.com/)
 - [nessus](https://www.tenable.com/products/nessus/nessus-essentials)
+- [openvas](https://www.openvas.org/)
 
 ## OSINT
 - [DorkSearch - Speed up your Google Dorking](https://dorksearch.com/)
