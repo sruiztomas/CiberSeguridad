@@ -8,6 +8,7 @@
 
 ## FRAMEWORK
 - [MITRE ATT&CK®](https://attack.mitre.org/)
+- OWASP
 
 ## PRACTICE
 - [Web Security Academy: Free Online Training from PortSwigger](https://portswigger.net/web-security)
@@ -27,6 +28,7 @@
 
 ## Linux Audit
 - [lynis](https://cisofy.com/lynis/)
+- [open-scap](https://www.open-scap.org/)
 
 ## Github tools
 - [vscan](https://github.com/xen0vas/vscan)
@@ -65,4 +67,16 @@
 - [Cisco Skills For All](https://skillsforall.com/career-path/network-technician?courseLang=en-US)
 - [Linux Professional Institute (LPI)](https://www.lpi.org/)
 - [Capacitación y certificación en Linux con Red Hat](https://www.redhat.com/es/services/training-and-certification)
+
+## Network Security
+
+- [icinga monitoring](https://icinga.com/)
+- [suricata network analysis and threat detection](https://suricata.io/)
+- [snort  Intrusion Prevention System (IPS) ](https://www.snort.org/)
+- [ossec  HIDS analysis engine, integrating log analysis, file integrity monitoring](https://www.ossec.net/)
+- [wazuh XDR + SIEM](https://wazuh.com/)
+- [qradar SIEM](https://www.ibm.com/products/qradar-siem)
+- [wocu monitoring](https://www.wocu-monitoring.com/)
+- [vyos router and firewall platform](https://vyos.io/)
+
 
