@@ -17,6 +17,29 @@
 - [tryhackme](https://tryhackme.com/)
 - [picoctf](https://picoctf.org/)
 
+## Pentest
+- [portswigger](https://portswigger.net/burp)
+- [zaproxy](https://www.zaproxy.org/)
+- [metasploit](https://www.metasploit.com/)
+- [kali](https://www.kali.org/tools/)
+- [sqlmap](https://sqlmap.org/)
+- [w3af](https://docs.w3af.org/en/latest/)
+
+## Linux Audit
+- [lynis](https://cisofy.com/lynis/)
+
+## Github tools
+- [vscan](https://github.com/xen0vas/vscan)
+- [vuls](https://github.com/future-architect/vuls
+
+## Unix Toolbox & Tips & Manuals & Cheatsheet
+- [UnixToolbox](https://devdoc.net/linux/UnixToolbox.html)
+- [pixelbeat](https://www.pixelbeat.org/cmdline.html)
+- [shell-fu](https://www.shell-fu.org/tips.php)
+- [tldp](http://es.tldp.org/htmls/manuales.html)
+- [devhints](https://devhints.io/bash)
+- [linuxsecurity expert](https://linuxsecurity.expert/)
+
 ## SCAN&RECON
 - [Shodan](https://www.shodan.io/)
 - [nmap](https://nmap.org/)
@@ -29,6 +52,7 @@
 
 ## MITM
 - [Wireshark · Go Deep](https://www.wireshark.org/)
+- [mitmproxy](https://mitmproxy.org/)
 
 ## NOTICE & BUG BOUNTY
 - [Packet Storm](https://packetstormsecurity.com/)
