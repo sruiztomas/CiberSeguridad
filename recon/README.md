@@ -101,6 +101,8 @@ Primero: `nmap --script=http-enum -oN datos.txt `
 
 Segundo: `nmap -p80  --script http-unsafe-output-escaping -iL datos.txt`
 
+Segundo: `nmap -p80 --script http-stored-xss.nse -iL datos.txt`
+
 
 
 
