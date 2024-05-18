@@ -2,7 +2,7 @@ Comando:
 
 `nmap` + **Parametros**
 
-##Parametros:
+#Parametros:
 
 `-n` Para ahorrar tiempo, no realizar la resolucion de nombre/DNS de la ip especificada
 
