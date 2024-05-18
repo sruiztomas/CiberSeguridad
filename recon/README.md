@@ -1,6 +1,6 @@
 Comando: 
 
-`nmap` + **Parametros
+`nmap` + **Parametros**
 
 Parametros:
 
