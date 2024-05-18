@@ -66,13 +66,15 @@ Comando:
   
   `--script=http-shellshock` especificar script especifico
 
-- parametros para Webs
+- parametros para Webs y Servidores
   
-  `--script=http-enum` Escanear web en  rutas  conocidas
+  `--script=http-enum` Escanear web en  rutas  conocidas y enumerar rutas y archivos
   
   `--script=http-headers` Escanear para obtener headers HTTP de respuesta de la web
   
   `--script=asn-query,whois,ipgeolocation-maxmind` Maximos datos sobre la IP
+
+  `nmap --script smb-os-discovery.nse [target]`
 
   
 Conjunto de parametros utiles:
