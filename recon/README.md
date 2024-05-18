@@ -55,6 +55,8 @@ Comando:
 - Informacion
   
   `-vvv` Triple Verbose especifica  la info  extraida y la hace muy  detallada del proceso
+
+  `dd` Informacion detallada de debug
   
 - Scripts
   
