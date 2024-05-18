@@ -20,7 +20,7 @@ Parametros:
 
   `-p-` Escanear los 65535 puertos
   
-  `-F` Escanear los 100 puertos mas comunes (F = Frecuent)
+  `-F` Escanear los 100 puertos mas comunes (**-F = [F]requent**)
   
   `-sT` Escanear usando una conexión TCP (**-[sT] = [s]can[T]CP**)
   
