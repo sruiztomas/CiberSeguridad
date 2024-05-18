@@ -74,7 +74,7 @@ Comando:
   
   `--script=asn-query,whois,ipgeolocation-maxmind` Maximos datos sobre la IP
 
-  `nmap --script smb-os-discovery.nse [target]`
+  `--script smb-os-discovery.nse <ip>` Escaneo SMB
 
   
 Conjunto de parametros utiles:
