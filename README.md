@@ -41,6 +41,7 @@
 - [tldp](http://es.tldp.org/htmls/manuales.html)
 - [devhints](https://devhints.io/bash)
 - [linuxsecurity expert](https://linuxsecurity.expert/)
+- [3os](https://3os.org/)
 
 ## SCAN&RECON
 - [Shodan](https://www.shodan.io/)
