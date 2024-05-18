@@ -1,6 +1,6 @@
 Comando: 
 
-`nmap`
+`nmap` + **Parametros
 
 Parametros:
 
@@ -15,5 +15,17 @@ Parametros:
   `-iL hosts.csv`  (dominios/IP  desde un archivo)
   
   `--exclude 192.168.0.10`  (excluir un host del escaneo)
+
+- Ports
+
+  `-p-` Escanear los 65535 puertos
+  
+  `-F` Escanear los 100 puertos mas comunes (F = Frecuent)
+  
+  `-sT` Escanear usando una conexión TCP (**-[sT] = [s]can[T]CP**)
+  
+  `-sU` Escanear usando una conexión TCP (**-[sU] = [s]can[U]DP**)
+
+
   
 
