@@ -8,7 +8,7 @@
 
 ## FRAMEWORK
 - [MITRE ATT&CK®](https://attack.mitre.org/)
-- OWASP
+- [OWASP](https://owasp.org/)
 
 ## PRACTICE
 - [Web Security Academy: Free Online Training from PortSwigger](https://portswigger.net/web-security)
