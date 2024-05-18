@@ -4,7 +4,7 @@ Comando:
 
 **Parametros**:
 
-`-n` Para ahorrar tiempo, no realizar la resolucion de nombre/DNS de la ip especificada
+
 
 - Hosts
   
@@ -29,6 +29,8 @@ Comando:
   `-sU` Escanear usando una conexión TCP (**-[sU] = [s]can[U]DP**)
   
   `-Pn`  (**Pn**) sin escaneo de ping, escanea host ignorando si responde o no los pings
+
+  `-n` Para ahorrar tiempo, no realizar la resolucion de nombre/DNS de la ip especificada
   
 - Sistema Operativo
 
