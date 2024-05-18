@@ -66,36 +66,19 @@ Comando:
   
   `--script=http-shellshock` especificar script especifico
 
-- parametros para Webs y Servidores
+-----------------------------------------------------------------------------------------------------
   
-  `--script=http-enum` Escanear web en  rutas  conocidas y enumerar rutas y archivos
+Escanear vulnerabilidades del host:  `nmap <ip> --script vuln`
   
-  `--script=http-headers` Escanear para obtener headers HTTP de respuesta de la web
-  
-  `--script=asn-query,whois,ipgeolocation-maxmind` Maximos datos sobre la IP
+Conjunto de parametros utiles: `nmap -sC -sV -O -T4 -n -Pn -p- -vvv  -oN datos <ip>`
 
-  `--script smb-os-discovery.nse <ip>` Escaneo SMB
+Conjunto de parametros para escaneo agresivo: `nmap -n -sS -p- -T4 -Pn -A -vvv -oN datos <ip>`
 
-  
-Conjunto de parametros utiles:
+Conjuno de parametros para generar sitemap: `nmap -Pn --script=http-sitemap-generator <dominio>`
 
-`nmap -sC -sV -O -T4 -n -Pn -p- -vvv  -oN datos <ip>`
+Fuerza bruta para obtener  Subdominios: `nmap -Pn --script=dns-brute`
 
-Conjunto de parametros para escaneo agresivo:
-
-`nmap -n -sS -p- -T4 -Pn -A -vvv -oN datos <ip>`
-
-Conjuno de parametros para generar sitemap
-
-`nmap -Pn --script=http-sitemap-generator <URL>`
-
-Fuerza bruta para obtener  Subdominios
-
-`nmap -Pn --script=dns-brute`
-
-Escaneo seguro contra servicio SMB (Samba)
-
-`nmap -n -Pn -vv -O -sV --script smb-enum,smb-ls,smb-mbenum,smb-os-discovery,smb-s,smb-vuln,smbv2 -vv <ip>`
+Escaneo seguro contra servicio SMB (Samba): `nmap -n -Pn -vv -O -sV --script smb-enum,smb-ls,smb-mbenum,smb-os-discovery,smb-s,smb-vuln,smbv2 -vv <ip>`
 
 Detectar XSS Cross Site Scripting en URLS
 
@@ -104,6 +87,20 @@ Primero: `nmap --script=http-enum -oN datos.txt `
 Segundo: `nmap -p80  --script http-unsafe-output-escaping -iL datos.txt`
 
 Segundo: `nmap -p80 --script http-stored-xss.nse -iL datos.txt`
+
+Obtener infomracion de zona dns: `nmap --script dns-zone-transfer.nse --script-args dns-zone-transfer.domain=example.com`
+
+Escaneo de servidor ftp con usuario anonimo habilitado:  `nmap --script=ftp-anon <ip>`
+
+Identificar vulnerabilidades CVE  en el servidor: `nmap --script=vulners --script-args mincvss=5.0 example.com`
+
+Fuerza bruta de credenciales snmp: `map --script=snmp-brute <IP>`
+
+Escanear para obtener headers HTTP de respuesta de la web: `nmap --script=http-headers <dominio>`
+
+Obtener la totalidad de datos sobre la IP:   `nmap --script=asn-query,whois,ipgeolocation-maxmind <ip>` 
+
+Prueba de headers http maliciosos: `nmap -sV -p- --script http-shellshock <dominio>` o `nmap -sV -p- --script http-shellshock --script-args uri=/cgi-bin/bin,cmd=ls <dominio>`
 
 
 
