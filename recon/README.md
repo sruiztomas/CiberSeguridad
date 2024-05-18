@@ -102,6 +102,9 @@ Obtener la totalidad de datos sobre la IP:   `nmap --script=asn-query,whois,ipge
 
 Prueba de headers http maliciosos: `nmap -sV -p- --script http-shellshock <dominio>` o `nmap -sV -p- --script http-shellshock --script-args uri=/cgi-bin/bin,cmd=ls <dominio>`
 
+Escanear vulnerabilidades web: `nmap --script=http-vuln-* <ip>`
+
+Escanear y enumerar los SHARES/Compratidos de samba:  `nmap --script=smb-enum-shares <ip>`
 
 
 
