@@ -4,7 +4,8 @@ Comando:
 
 Parametros:
 
-- Hosts 
+- Hosts
+  
   `192.168.0.1` o `192.168.0.1/24`  (host especifico [o con CDIR])
   
   `192.168.0.1 192.168.0.2`  (multiples hosts especificos)
