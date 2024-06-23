@@ -30,6 +30,8 @@
 - IronWASP
 - Wapiti
 - BurpSuite
+- subfinder
+- afrog
 
 ## Linux Audit
 - [lynis](https://cisofy.com/lynis/)
