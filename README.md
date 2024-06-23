@@ -26,6 +26,10 @@
 - [sqlmap](https://sqlmap.org/)
 - [w3af](https://docs.w3af.org/en/latest/)
 - WaybackUrls
+- Wfuzz
+- IronWASP
+- Wapiti
+- BurpSuite
 
 ## Linux Audit
 - [lynis](https://cisofy.com/lynis/)
