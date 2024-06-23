@@ -25,6 +25,7 @@
 - [kali](https://www.kali.org/tools/)
 - [sqlmap](https://sqlmap.org/)
 - [w3af](https://docs.w3af.org/en/latest/)
+- WaybackUrls
 
 ## Linux Audit
 - [lynis](https://cisofy.com/lynis/)
