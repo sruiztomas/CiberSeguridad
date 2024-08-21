@@ -34,9 +34,16 @@
 - afrog
 - 
 
+## Linux Docs
+- [devdoc](https://devdoc.net/linux/UnixToolbox.html)
+- [shell-fu](https://www.shell-fu.org)
+- [commandlinux](https://www.commandlinux.com)
+- [linux-audit](https://linux-audit.com)
+
 ## Linux Audit
 - [lynis](https://cisofy.com/lynis/)
 - [open-scap](https://www.open-scap.org/)
+- [linux-audit](https://linux-audit.com)
 
 ## Github tools
 - [vscan](https://github.com/xen0vas/vscan)
