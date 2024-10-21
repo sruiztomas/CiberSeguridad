@@ -12,3 +12,17 @@
 - [dnsdumpster](https://dnsdumpster.com/) | dns analyzer to discover hosts related to a domain
 - [securityheaders](https://securityheaders.com/) | check security header from web
 - [ssllabs](https://www.ssllabs.com/ssltest/) | check SSl certificate
+
+## DDBB
+- [google-hacking-database](https://www.exploit-db.com/google-hacking-database)
+- [cvedetails](https://www.cvedetails.com/)
+- [cve.mitre](https://cve.mitre.org/)
+- [nvd](https://nvd.nist.gov/vuln)
+
+## Vuln SCAN
+
+- [nessus](https://www.tenable.com/products/nessus)
+- [openvas](https://www.openvas.org/)
+- [zaproxy](https://www.zaproxy.org/)
+- [nmap](https://nmap.org/) 
+
