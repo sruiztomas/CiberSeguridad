@@ -12,6 +12,7 @@
 - [dnsdumpster](https://dnsdumpster.com/) | dns analyzer to discover hosts related to a domain
 - [securityheaders](https://securityheaders.com/) | check security header from web
 - [ssllabs](https://www.ssllabs.com/ssltest/) | check SSl certificate
+- [snyk](https://snyk.io/)
 
 ## DDBB
 - [google-hacking-database](https://www.exploit-db.com/google-hacking-database)
@@ -24,5 +25,5 @@
 - [nessus](https://www.tenable.com/products/nessus)
 - [openvas](https://www.openvas.org/)
 - [zaproxy](https://www.zaproxy.org/)
-- [nmap](https://nmap.org/) 
-
+- [nmap](https://nmap.org/)
+- [snyk](https://snyk.io/)
